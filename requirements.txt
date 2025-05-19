@@ -1,0 +1,8 @@
+Django>=4.0,<5.0
+djangorestframework>=3.13.1
+Pillow>=9.0.0                 # For image processing (product images)
+psycopg2-binary>=2.9.3       # PostgreSQL database adapter (if using PostgreSQL)
+gunicorn>=20.1.0             # WSGI HTTP server for deployment
+django-crispy-forms>=1.14.0  # For better form handling & styling
+django-allauth>=0.51.0       # For authentication and social login
+django-filter>=22.1          # Filtering support (optional but useful)
